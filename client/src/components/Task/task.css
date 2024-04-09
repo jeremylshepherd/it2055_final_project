@@ -1,0 +1,104 @@
+.task {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background-color: #E5EBF0;
+    box-shadow: 4px 4px 1rem rgba(0, 0, 0, 0.8);
+    color: black;
+    padding: .125rem 1rem 1rem;
+    border-radius: 0.5rem;
+    transition: all 0.3s ease-in-out;
+
+    hr {
+        width: 99%;
+    }
+
+    &.task__complete {
+        filter: brightness(0.75);
+    }
+
+    &:hover,
+    &:focus,
+    &:focus-within {
+        outline: 3px solid cornflowerblue;
+        scale: 1.05;
+    }
+}
+
+.task__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .close-button {
+        padding: 0.125rem;
+        border-radius: 50%;
+        color: red;
+        cursor: pointer;
+    }
+}
+
+.task__title {
+    /* Add your styles for the task title here */
+}
+
+.task__body {
+}
+
+.task__footer {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.task__edit {
+    display: grid;
+    place-items: center;
+    width: 37px;
+    border-radius: 100%;
+    background-color: cornflowerblue;
+    aspect-ratio: 1/1;
+    position: absolute;
+    bottom: -0.5rem;
+    right: -0.5rem;
+    z-index: 25;
+}
+
+.task__delete {
+    width: 640px;
+    color: black;
+    padding: 0.75rem;
+    border-radius: 0.5rem;
+    background-color: #E5EBF0;
+
+    p {
+        margin-bottom: 2rem;
+    }
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 50;
+    inset: 0;
+    background-color: rgba(59, 59, 59, 0.9);
+    display: grid;
+    place-items: center;
+
+    dialog {
+        z-index: 100;
+    }
+}
+
+.button__group {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 1rem;
+}
+
+.button--danger {
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+/* Add any additional styles for the TaskComponent as needed */

@@ -1,0 +1,60 @@
+[
+    {
+        "_id": {
+            "$oid": "66159ee4bf01306e6f94b530"
+        },
+        "name": "Complete Final Project",
+        "description": "The final project needs to be completed",
+        "created": "2024-04-26T11:59:59Z",
+        "completed": false,
+        "completedAt": "null"
+    },
+    {
+        "_id": {
+            "$oid": "66159ee4bf01306e6f94b531"
+        },
+        "name": "Complete course evaluation",
+        "description": "The course evaluation needs to be completed",
+        "created": "2024-04-26T11:59:59Z",
+        "completed": false,
+        "completedAt": "null"
+    },
+    {
+        "_id": {
+            "$oid": "66159ee4bf01306e6f94b532"
+        },
+        "name": "Complete Week 2 Assignment",
+        "description": "The week 2 assignment needs to be completed",
+        "created": "2023-03-08T12:00:00Z",
+        "completed": true,
+        "completedAt": "2023-03-10T12:00:00Z"
+    },
+    {
+        "_id": {
+            "$oid": "66159ee4bf01306e6f94b533"
+        },
+        "name": "Wash the dishes",
+        "description": "The dishes need to be washed",
+        "created": "2023-02-01T12:00:00Z",
+        "completed": true,
+        "completedAt": "2024-04-09T20:05:54.291Z"
+    },
+    {
+        "_id": {
+            "$oid": "66159ee4bf01306e6f94b534"
+        },
+        "name": "Complete Week 1 Assignment",
+        "description": "The week 1 assignment needs to be completed with proper punctuation.",
+        "created": "2023-03-01T12:00:00Z",
+        "completed": false,
+        "completedAt": "null"
+    },
+    {
+        "_id": {
+            "$oid": "66159f85eb39f0d8c5939a86"
+        },
+        "name": "Create task for Demo",
+        "description": "Demoing the task.",
+        "created": "2024-04-09T20:05:25.277Z"
+    }
+]
